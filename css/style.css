@@ -217,7 +217,8 @@ img{
 }
 .container2{
     width: 100%;
-    background-color: gray;
+    min-height: 600px;
+    background-color: #B4D0E7;
     margin-top: 6%;
 }
 .terzoh1{
@@ -225,5 +226,29 @@ img{
 }
 .row2{
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
+    background-color: gray;
 }
+
+
+.image-designit{
+    width: 15%;
+    height: 200px;
+    float: left;
+}
+.background1{
+    background-color: #A2D39B;
+}
+.designit{
+    width: 50%;
+    margin: 43% 23%;
+}
+.background2{
+    background-color: #1D93CE;
+}
+.image-center{
+    width: 40%;
+    height: 400px;
+    background-color: red;
+    float: left;
+} 
