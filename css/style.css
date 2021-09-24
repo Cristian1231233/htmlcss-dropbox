@@ -32,10 +32,10 @@ header .link-head li{
     margin-right: 30px;
 
 }
-li:first-child{
+.link-head li:first-child{
     margin-left: 60px;
 }
-li:nth-child(4){
+.quarto{
     margin-left: 130px;
 }
 li a{
@@ -286,7 +286,6 @@ img{
 .titolo-immagini{
     font-size: 150%;
     width: 40%;
-    border: 1px solid;
     margin: 11% 8%;
     display: inline-block;
     vertical-align: middle;
@@ -301,4 +300,15 @@ img{
     color: black;
     background-color: white;
     padding: 2% 8%;
+}
+.seconda-lista li{
+    list-style: none;
+    padding: 3% 0;
+    border-bottom: 1px solid lightgray;
+}
+.seconda-lista .ampio{
+    padding-bottom: 5%;
+}
+.symbol-v{
+    margin-left: 45%;
 }
