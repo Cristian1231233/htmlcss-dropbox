@@ -210,14 +210,13 @@ img{
 }
 .container .image{
     width: 100%;
-    height: 200px;
 }
 .colonna-float .colonna-h2{
     margin: 5% 0;
 }
 .container2{
     width: 100%;
-    min-height: 600px;
+    min-height: 800px;
     background-color: #B4D0E7;
     margin-top: 6%;
 }
@@ -226,13 +225,12 @@ img{
 }
 .row2{
     width: 100%;
-    min-height: 400px;
     background-color: gray;
 }
 
 
 .image-designit{
-    width: 15%;
+    width: 50%;
     height: 200px;
     float: left;
 }
@@ -241,14 +239,66 @@ img{
 }
 .designit{
     width: 50%;
-    margin: 43% 23%;
+    margin: 30% 25%;
 }
 .background2{
     background-color: #1D93CE;
 }
+.background3{
+    background-color: #61082C;
+}
+.background4{
+    background-color: #1D93CE;
+}
+.background5{
+    background-color: #F91C1D;
+}
+.background6{
+    background-color: #D5021F;
+}
+.background7{
+    background-color: #B3CEE5;
+}
+.background8{
+    background-color: #0D2481;
+}
+.background9{
+    background-color: #FED830;
+}
+
 .image-center{
     width: 40%;
     height: 400px;
-    background-color: red;
+    background-color: #F5F5F5;
     float: left;
 } 
+.logo-in-alto{
+    width: 20%;
+    margin: 8% 8%;
+}
+.p-center{
+    padding: 7%;
+}
+.contain-uno{
+    float: left;
+    width: 30%;
+}
+.titolo-immagini{
+    font-size: 150%;
+    width: 40%;
+    border: 1px solid;
+    margin: 11% 8%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.prova-gratuita{
+    width: 20%;
+    display: inline-block;
+    margin-left: 8%;
+}
+.link-gratis{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 2% 8%;
+}
