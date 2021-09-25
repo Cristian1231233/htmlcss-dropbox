@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -69,6 +72,9 @@ h1{
     margin-top: 27px;
     margin-left: 30px;
 }
+.bottom:hover{
+    background-color: lightblue;
+}
 .bottom-main-top{
     margin-top: 20px;
 }
@@ -81,6 +87,15 @@ h1{
 .info-annulla{
     margin-top: 20px;
 }
+.contain-arrow{
+    width: 10%;
+    height: 30px;
+}
+.arrow{
+    color: black;
+    text-decoration: none;
+}
+
 .image1{
     width: 50%;
     display: inline-block;
