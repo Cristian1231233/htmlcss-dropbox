@@ -216,7 +216,6 @@ img{
 }
 .container2{
     width: 100%;
-    min-height: 800px;
     background-color: #B4D0E7;
     margin-top: 6%;
 }
@@ -311,4 +310,39 @@ img{
 }
 .symbol-v{
     margin-left: 45%;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: black;
+    margin-top: 4500px;
+    padding-top: 7%;
+}
+.lista-footer{
+    color: white; 
+    float: left;   
+    
+}
+.lista-footer li{
+    list-style: none;
+    
+}
+.footer-primo-li{
+    margin-bottom: 11%;
+}
+.mini-li{
+    font-size: 15px;
+    color: #9C9C9C;
+}
+.lista-footer.left{
+    margin-left: 6%;
+}
+.ultimoli{
+    border-bottom: 1px solid gray;
+    padding-bottom: 60%;
+}
+.nation-page{
+    color: #464646;
+    margin-top: 3%;
 }
