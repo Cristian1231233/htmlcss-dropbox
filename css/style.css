@@ -48,6 +48,7 @@ li a{
     padding-top: 23px;
 }
 li.bord-bottom:hover{
+    background-color: #B4D0E7;
     border-bottom: 1px solid black;
 }
 
@@ -130,7 +131,6 @@ img{
     margin-top: 20PX;
     float: left;
     margin-right: 5%;
-    
 }
 .recipiente{
     width: 90%;
@@ -152,6 +152,9 @@ img{
 .tempo-pagamento{
     color: #8995A1;
     margin-top: 10px;
+}
+.fa-check{
+    color: #0A67FF;
 }
 .info{
     margin-bottom: 20px;
