@@ -11,7 +11,7 @@ body{
 }
 header{
     width: 100%;
-    height: 70px;
+    height: 72px;
     line-height: 70px;
     position: fixed;
     background-color: white;
@@ -33,7 +33,6 @@ header{
 header .link-head li{
     display: inline-block;
     margin-right: 30px;
-
 }
 .link-head li:first-child{
     margin-left: 60px;
@@ -45,6 +44,8 @@ li a{
     color: black;
     line-height: 70px;
     text-decoration: none;
+    padding-bottom: 23px;
+    padding-top: 23px;
 }
 li.bord-bottom:hover{
     border-bottom: 1px solid black;
@@ -70,7 +71,7 @@ h1{
 .bottom{
     font-size: 18px;
     margin-top: 27px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 .bottom:hover{
     background-color: lightblue;
@@ -109,6 +110,18 @@ img{
 .piano-dropbox{
     width: 80%;
     margin:70px auto;
+}
+.titolo-scelta{
+    margin-bottom: 4%;
+}
+.radio{
+    vertical-align: middle;
+}
+.fattura-mensile{
+    margin-right: 2%;
+}
+.fattura-annuale, .fattura-mensile{
+    font-size: 13px;
 }
 .piano-dropbox .professional{
     width: 28%;
@@ -169,7 +182,7 @@ img{
     display: inline-block;
 }
 .vendite-bottom{
-    margin-left: 340px;
+    margin-left: 50%;
 }
 .text-uffice{
     font-size: 14px;
@@ -255,8 +268,12 @@ img{
     width: 50%;
     margin: 30% 25%;
 }
+.image-designit:hover{
+    border: 8px solid #D1E9CD;
+    box-sizing: border-box;
+}
 .background2{
-    background-color: #1D93CE;
+    background-color: #61082C;
 }
 .background3{
     background-color: #61082C;
