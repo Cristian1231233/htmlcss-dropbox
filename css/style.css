@@ -25,44 +25,57 @@ header{
     display: table;
     clear: both;
 }
+.link-left{
+    width: 50%;
+    float: left;
+    line-height: 70px;
+    vertical-align: middle;
+}
+.link-left li{
+    margin-left: 3%;
+}
+.link-right{
+    width: 50%;
+    float:right;
+}
+.link-right li{
+    margin-right: 3%;
+}
 .logo{
     width: 140px;
     padding: 5px 20px;
-    float: left;
+    vertical-align: middle;
 }
 .link-head{
-    width: 88%;
-    float: left;
+    width: 130%;
+    height: 72px;
+    line-height: 70px;
+    padding-bottom: 5%;
 }
 
 header .link-head li{
     display: inline-block;
-    margin-right: 3%;
+    padding-bottom: ;
 }
-.link-head li:first-child{
-    margin-left: 3%;
-}
-.quarto{
-    margin-left: 16%;
-}
+
 li a{
     color: black;
     line-height: 70px;
     text-decoration: none;
-    padding-bottom: 23px;
-    padding-top: 23px;
 }
 li.bord-bottom:hover{
     border-bottom: 1px solid black;
 }
 .background-uno{
+    height: 760px;
     background-color: #B4D0E7;
 }
 .contenuto-padding{
-    padding: 8% 5%;
+    padding: 0 5%;
 }
 h1{
     font-size: 86px;
+    padding-top: 9%;
 }
 
 .text-bottom{
@@ -90,8 +103,6 @@ h1{
     margin-top: 20px;
 }
 .contain-arrow{
-    width: 10%;
-    height: 30px;
     padding-top: 10%;
 }
 .arrow{
@@ -107,7 +118,7 @@ h1{
     display: inline-block;
     vertical-align: top;
     margin-left: 4%;
-    padding-top: 4%;
+    margin-top: 5%;
 }
 img{
     width: 100%;
@@ -117,6 +128,7 @@ img{
     margin:70px auto;
 }
 .titolo-scelta{
+    padding-top: 10%;
     margin-bottom: 4%;
 }
 .radio{
